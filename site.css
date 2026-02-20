@@ -1,15 +1,15 @@
 @font-face {
     font-family: euxoi;
-    src: url("euxoi.ttf");
+    src: url("content/euxoi.ttf");
 }
 @font-face {
     font-family: nokia;
-    src: url("nokiafc22.ttf");
+    src: url("content/nokiafc22.ttf");
 }
 body {
     color:white;
     background-color:#5600ac;
-    background-image: url("background.jpg");
+    background-image: url("content/background.jpg");
     background-size: contain;
     font-family: euxoi;
     font-size: larger;
@@ -49,7 +49,7 @@ footer {
 
 #navbar {
     /*background-color: rgb(51, 0, 91);*/
-    background-image: url("nav-background.jpg");
+    background-image: url("content/nav-background.jpg");
     border-radius: 15px;
     border: 2px solid white;
     padding: 3px;
