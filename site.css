@@ -1,0 +1,58 @@
+@font-face {
+    font-family: euxoi;
+    src: url("euxoi.ttf");
+}
+@font-face {
+    font-family: nokia;
+    src: url("nokiafc22.ttf");
+}
+body {
+    color:white;
+    background-color:#5600ac;
+    background-image: url("background.jpg");
+    background-size: contain;
+    font-family: euxoi;
+    font-size: larger;
+}
+
+h1 {
+    font-family: nokia;
+}
+h2 {
+    font-family: nokia;
+}
+h3 {
+    font-family: nokia;
+}
+
+header {
+    text-align: center;
+}
+
+/*article {
+    text-indent: 3em;
+}*/
+
+a {
+    color:white
+}
+
+footer {
+    text-align: center;
+}
+
+#wrapper { 
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+#navbar {
+    /*background-color: rgb(51, 0, 91);*/
+    background-image: url("nav-background.jpg");
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 3px;
+    text-align: center;
+    /*opacity: .75;*/
+}
